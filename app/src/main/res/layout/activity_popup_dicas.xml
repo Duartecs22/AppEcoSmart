@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_corners"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dicas para uma cidade mais sustentável:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Reduza, reutilize e recicle sempre que possível.\n\n- Prefira transportes alternativos como bicicleta, caminhada ou transporte público.\n\n- Economize energia elétrica, apagando luzes e desligando aparelhos quando não estiverem em uso.\n\n- Diminua o consumo de água e adote práticas de reutilização.\n\n- Apoie e participe de iniciativas comunitárias voltadas para a sustentabilidade."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btnYoutube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:paddingTop="7dp"
+        android:text="A importância de reciclar (YouTube)"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
